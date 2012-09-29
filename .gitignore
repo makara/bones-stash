@@ -1,3 +1,9 @@
+.*
+!.gitignore
+!.npmignore
+
+*.orig
+
 lib-cov
 *.seed
 *.log

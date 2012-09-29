@@ -1,0 +1,27 @@
+{
+  "author": "Makara Wang <makara@wiredcraft.com> (https://github.com/makara)",
+  "name": "bones-stash",
+  "description": "",
+  "version": "0.0.1",
+  "keywords": [
+    "bones",
+    "stash"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/makara/bones-stash.git"
+  },
+  "dependencies": {
+    "backbone-stash": "~0.5",
+    "bones-backend": "~0.0.1",
+    "mkdirp": "~0.3.3"
+  },
+  "devDependencies": {
+    "bones-test": "~0.0.4",
+    "mocha": "1.x",
+    "should": "1.x"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test/*.mocha.js"
+  }
+}
